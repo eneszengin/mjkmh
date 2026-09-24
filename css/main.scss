@@ -89,6 +89,9 @@ firstp {
 .kisi-bolum { font-weight: bold; }
 .ogrenci h4 { font-size: 16px; }
 .danisman { font-size: 14px; color: #666; }
+.mezunlar ul { padding-left: 18px; }
+.mezunlar li { margin-bottom: 6px; }
+@media (max-width: 767px) { .mezun-bos-baslik { display: none; } }
 
 
 /* Grid overrides */

@@ -60,14 +60,23 @@ permalink: /kisiler/
 
 <h2 class="kisi-bolum" id="mezunlar">Mezunlar</h2>
 
-{% assign gruplar = "doktora:Doktora,yuksek_lisans:Yüksek Lisans,lisans:Lisans" | split: "," %}
-{% for grup in gruplar %}
-{% assign parca = grup | split: ":" %}
-<h3 class="kisi-bolum">{{ parca[1] }}</h3>
-<ul class="mezunlar">
-{% assign anahtar = parca[0] %}
-{% for kisi in site.data.mezunlar[anahtar] %}
-<li>{{ kisi.name }} {{ kisi.surname }}{% if kisi.year %}, {{ kisi.year }}{% endif %}{% if kisi.advisor %} <span class="danisman">(Danışman: {{ kisi.advisor }})</span>{% endif %}</li>
-{% endfor %}
-</ul>
-{% endfor %}
+{% assign lisans = site.data.mezunlar.lisans %}
+{% assign yarim = lisans.size | plus: 1 | divided_by: 2 %}
+<div class="row mezunlar">
+<div class="col-sm-3">
+<h3 class="kisi-bolum">Doktora</h3>
+<ul>{% for kisi in site.data.mezunlar.doktora %}<li>{{ kisi.name }} {{ kisi.surname }}{% if kisi.year %}, {{ kisi.year }}{% endif %}{% if kisi.advisor %}<br><span class="danisman">Danışman: {{ kisi.advisor }}</span>{% endif %}</li>{% endfor %}</ul>
+</div>
+<div class="col-sm-3">
+<h3 class="kisi-bolum">Yüksek Lisans</h3>
+<ul>{% for kisi in site.data.mezunlar.yuksek_lisans %}<li>{{ kisi.name }} {{ kisi.surname }}{% if kisi.year %}, {{ kisi.year }}{% endif %}{% if kisi.advisor %}<br><span class="danisman">Danışman: {{ kisi.advisor }}</span>{% endif %}</li>{% endfor %}</ul>
+</div>
+<div class="col-sm-3">
+<h3 class="kisi-bolum">Lisans</h3>
+<ul>{% for kisi in lisans limit: yarim %}<li>{{ kisi.name }} {{ kisi.surname }}{% if kisi.year %}, {{ kisi.year }}{% endif %}{% if kisi.advisor %}<br><span class="danisman">Danışman: {{ kisi.advisor }}</span>{% endif %}</li>{% endfor %}</ul>
+</div>
+<div class="col-sm-3">
+<h3 class="kisi-bolum mezun-bos-baslik">&nbsp;</h3>
+<ul>{% for kisi in lisans offset: yarim %}<li>{{ kisi.name }} {{ kisi.surname }}{% if kisi.year %}, {{ kisi.year }}{% endif %}{% if kisi.advisor %}<br><span class="danisman">Danışman: {{ kisi.advisor }}</span>{% endif %}</li>{% endfor %}</ul>
+</div>
+</div>

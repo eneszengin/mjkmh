@@ -29,4 +29,7 @@ lisans:
     surname: AKBAL
     advisor: Doç. Dr. Enes Zengin
 
-misafir: []
+misafir:
+  - name: Berna
+    surname: BEKDEMİR
+    info: Vrije Universiteit Amsterdam, 2025–2026
