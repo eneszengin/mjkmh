@@ -7,6 +7,8 @@ permalink: /yayinlar/
 
 # Yayınlar
 
+<p class="yayin-not">Grup üyeleri <span class="uye">koyu kırmızı</span> ile gösterilmiştir.</p>
+
 {% assign yillar = site.data.yayinlar | group_by: "year" %}
 {% for yil in yillar %}
 {% unless forloop.first %}<hr>{% endunless %}
@@ -16,33 +18,24 @@ permalink: /yayinlar/
 <div class="row yayin-detay">
 <div class="col-sm-4">
 <img src="{{ site.url }}{{ site.baseurl }}/images/{% if y.image %}yayinlar/{{ y.image }}{% else %}kisiler/fotograf-yok.png{% endif %}" class="img-responsive yayin-resim" alt="" />
+{% if y.image_credit %}<p class="gorsel-kaynak">Görsel: {{ y.image_credit }}</p>{% endif %}
 </div>
 <div class="col-sm-8">
 <p class="yayin-baslik"><strong>{{ y.title }}</strong></p>
-<p class="danisman">{% if y.authors %}{% assign yazarlar = y.authors %}{% for m in y.members %}{% capture kalin %}<strong>{{ m }}</strong>{% endcapture %}{% assign yazarlar = yazarlar | replace: m, kalin %}{% endfor %}{{ yazarlar }}{% else %}{{ y.members | join: ", " }}{% endif %}</p>
+<p class="yazarlar">{% include yazarlar.html authors=y.authors %}</p>
 <p><em>{{ y.source }}</em> · {{ y.type }}{% if y.quartile %} · <span class="quartile">{{ y.quartile }}</span>{% endif %}{% if y.doi %} · <a href="https://doi.org/{{ y.doi }}" target="_blank" rel="noopener">doi:{{ y.doi }}</a>{% endif %}</p>
 {% if y.abstract %}<div class="ozet kisa">{{ y.abstract }}</div>
 <a href="#" class="devami" onclick="var o=this.previousElementSibling;o.classList.toggle('kisa');this.textContent=o.classList.contains('kisa')?'devamı':'kapat';return false;">devamı</a>{% endif %}
 </div>
 </div>
 {% endfor %}
-{% else %}kisiler/fotograf-yok.png{% endif %}" class="img-responsive" width="33%" style="float: left" />
-{% if y.abstract %}<p>{{ y.abstract }}</p>{% endif %}
-<p><em>{{ y.source }}</em> · {{ y.type }}{% if y.quartile %} · <span class="quartile">{{ y.quartile }}</span>{% endif %}</p>
-<p class="danisman">{{ y.members | join: ", " }}</p>
-{% if y.doi %}<p><strong><a href="https://doi.org/{{ y.doi }}" target="_blank" rel="noopener">doi:{{ y.doi }}</a></strong></p>{% endif %}
-</div>
-</div>
-{% cycle '', '<div class="clearfix hidden-xs"></div>' %}
-{% endfor %}
-</div>
 {% else %}
 <ul class="yayinlar">
 {% for y in yil.items %}
 <li>
 <strong>{{ y.title }}</strong><br>
-<em>{{ y.source }}</em> · {{ y.type }}{% if y.quartile %} · <span class="quartile">{{ y.quartile }}</span>{% endif %}{% if y.doi %} · <a href="https://doi.org/{{ y.doi }}" target="_blank" rel="noopener">doi:{{ y.doi }}</a>{% endif %}<br>
-<span class="danisman">{{ y.members | join: ", " }}</span>
+<span class="yazarlar">{% include yazarlar.html authors=y.authors %}</span><br>
+<em>{{ y.source }}</em> · {{ y.type }}{% if y.quartile %} · <span class="quartile">{{ y.quartile }}</span>{% endif %}{% if y.doi %} · <a href="https://doi.org/{{ y.doi }}" target="_blank" rel="noopener">doi:{{ y.doi }}</a>{% endif %}
 </li>
 {% endfor %}
 </ul>

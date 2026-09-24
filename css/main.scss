@@ -99,6 +99,11 @@ firstp {
 .ozet { line-height: 1.5; text-align: justify; }
 .ozet.kisa { display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical; overflow: hidden; }
 .devami { font-size: 14px; }
+.uye { color: #C00000; font-weight: 600; }
+.yazarlar { font-size: 14px; color: #444; }
+.yayin-not { font-size: 14px; color: #666; }
+.gorsel-kaynak { font-size: 12px; color: #888; margin-top: -4px; }
+.yayinlar li, .yayin-detay { overflow-wrap: anywhere; }
 .mezunlar li { margin-bottom: 6px; }
 @media (max-width: 767px) { .mezun-bos-baslik { display: none; } }
 
