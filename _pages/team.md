@@ -46,7 +46,8 @@ permalink: /kisiler/
 {% assign parca = bolum | split: ":" %}
 <h2 class="kisi-bolum">{{ parca[1] }}</h2>
 <div class="row">
-{% for kisi in site.data.ogrenciler[parca[0]] %}
+{% assign anahtar = parca[0] %}
+{% for kisi in site.data.ogrenciler[anahtar] %}
 <div class="col-sm-6 clearfix team-member ogrenci">
   <img src="{{ site.url }}{{ site.baseurl }}/images/kisiler/{{ kisi.photo | default: 'fotograf-yok.png' }}" class="img-responsive" width="18%" style="float: left" />
   <h4>{{ kisi.name }} {{ kisi.surname }}{% if kisi.info %}, {{ kisi.info }}{% endif %}</h4>
@@ -64,7 +65,8 @@ permalink: /kisiler/
 {% assign parca = grup | split: ":" %}
 <h3 class="kisi-bolum">{{ parca[1] }}</h3>
 <ul class="mezunlar">
-{% for kisi in site.data.mezunlar[parca[0]] %}
+{% assign anahtar = parca[0] %}
+{% for kisi in site.data.mezunlar[anahtar] %}
 <li>{{ kisi.name }} {{ kisi.surname }}{% if kisi.year %}, {{ kisi.year }}{% endif %}{% if kisi.advisor %} <span class="danisman">(Danışman: {{ kisi.advisor }})</span>{% endif %}</li>
 {% endfor %}
 </ul>
