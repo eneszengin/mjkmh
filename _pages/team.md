@@ -21,7 +21,7 @@ permalink: /kisiler/
   <h4>{{ member.name }} {{ member.surname }}, {{ member.info }}</h4>
   <ul style="overflow: hidden">
   {% for edu in member.education %}
-  <li>{{ edu.level }}: {{ edu.university }}{% if site.team_show_department and edu.department %}, {{ edu.department }}{% endif %}{% if edu.years %}, {{ edu.years }}{% endif %}</li>
+  <li>{{ edu.level }}: {{ edu.university }}{% if site.team_show_department and edu.department %}, {{ edu.department }}{% endif %}{% if site.team_show_years and edu.years %}, {{ edu.years }}{% endif %}</li>
   {% endfor %}
   </ul>
 </div>
