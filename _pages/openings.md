@@ -1,39 +1,37 @@
 ---
-title: "MJKMH - Vacancies"
+title: "MJKMH - Açık Pozisyonlar"
 layout: textlay
-excerpt: "Openings"
 sitemap: false
-permalink: /vacancies
+permalink: /acik-pozisyonlar/
 ---
 
-# Open positions
+# Açık pozisyonlar
 
-**We are currently open for PhD and postdoc applications related to our ERC CoG grant. The positions are mostly related to the Electron Pair Microscopy projects.**
+**ERC CoG hibemizle ilişkili doktora ve doktora sonrası başvuruları şu anda açıktır. Pozisyonlar çoğunlukla Elektron Çifti Mikroskopisi projeleriyle ilgilidir.**
 
-We are  looking for new group members with passion, talent, and grit!
+Tutkulu, yetenekli ve azimli yeni grup üyeleri arıyoruz!
 
-You will have the chance to work on the grand challenges of condensed matter physics, often at the interface of instrumental design and new physics. You will be involved in determining the important and interesting questions, creating and improving instrumental setups, performing measurements, and making discoveries.
+Yoğun madde fiziğinin büyük sorunları üzerinde, çoğu zaman cihaz tasarımı ile yeni fiziğin kesiştiği noktada çalışma fırsatı bulacaksınız. Önemli ve ilgi çekici soruların belirlenmesinde, deney düzeneklerinin kurulması ve geliştirilmesinde, ölçümlerin yapılmasında ve yeni keşiflerde yer alacaksınız.
 
-### Past open positions
+### Geçmiş ilanlar
 
-You find the past job openings here:
-[Opening 1]({{ site.baseurl }}/downloads/GeneralPostdoc_2019_v01.pdf),
-[Opening 2]({{ site.baseurl }}/downloads/PPMS_PhD_2019_v01.pdf),
-[Opening 3]({{ site.baseurl }}/downloads/PD.pdf),
-[Opening 4]({{ site.baseurl }}/downloads/PHD1.pdf),
-[Opening 5]({{ site.baseurl }}/downloads/PHD2.pdf).
+Geçmiş iş ilanlarına buradan ulaşabilirsiniz:
+[İlan 1]({{ site.baseurl }}/downloads/GeneralPostdoc_2019_v01.pdf),
+[İlan 2]({{ site.baseurl }}/downloads/PPMS_PhD_2019_v01.pdf),
+[İlan 3]({{ site.baseurl }}/downloads/PD.pdf),
+[İlan 4]({{ site.baseurl }}/downloads/PHD1.pdf),
+[İlan 5]({{ site.baseurl }}/downloads/PHD2.pdf).
 
-### Applications for PhD and Postdoc positions
-If you are interested in working with us as a PhD student or postdoc, please send me an [email](mailto:milan.allan@gmail.com). State briefly why you are interested and attach a CV, including information about the grades you had as an undergraduate. No need for a separate cover letter or certificates. **Important**: please insert _"Application PhD"_ or _"Application Postdoc"_ in the subject line. If you are applying to a specific advertisement, note this in your email.
+### Doktora ve doktora sonrası pozisyonlarına başvuru
+Bizimle doktora öğrencisi ya da doktora sonrası araştırmacı olarak çalışmak istiyorsanız bana bir [e-posta](mailto:milan.allan@gmail.com) gönderin. Neden ilgilendiğinizi kısaca belirtin ve lisans notlarınızı da içeren özgeçmişinizi ekleyin. Ayrıca bir ön yazıya ya da belgeye gerek yoktur. **Önemli**: Konu satırına lütfen _"Doktora Başvurusu"_ ya da _"Doktora Sonrası Başvurusu"_ yazın. Belirli bir ilana başvuruyorsanız bunu e-postanızda belirtin.
 
-We especially welcome postdocs with fellowships. I'd be happy to support you, also after you apply to our group. Take a look at the [veni fellowship](https://www.nwo.nl/en/calls/nwo-talent-programme-veni-science-domain) or the Marie Curie fellowship (currently closed, next deadline probably Fall 2021, [here is last years call]({{ site.baseurl }}/downloads/h2020-wp1820-msca_en.pdf)). In many country, there are also fellowships available for outdoing postdocs.**
+Burslu doktora sonrası araştırmacıları özellikle memnuniyetle karşılıyoruz. Grubumuza başvurduktan sonra da sizi desteklemekten mutluluk duyarım. [Veni bursuna](https://www.nwo.nl/en/calls/nwo-talent-programme-veni-science-domain) ya da Marie Curie bursuna göz atın (şu anda kapalı, bir sonraki son başvuru tarihi muhtemelen 2021 sonbaharı, [geçen yılın çağrısı burada]({{ site.baseurl }}/downloads/h2020-wp1820-msca_en.pdf)). Birçok ülkede yurt dışına giden doktora sonrası araştırmacılar için de burslar bulunmaktadır.
 
+### Leiden Üniversitesi öğrencileri için yüksek lisans projeleri
+Leiden Üniversitesi'nde yüksek lisans projesi arayan bir öğrenciyseniz bana (ya da herhangi bir grup üyesine) e-postayla ulaşın veya ofisime uğrayın.
 
-### Master projects for Leiden University students
-If you are a Master student at Leiden University looking for a Master project, contact me (or any group member) per email or stop by my office.
-
-### Bsc / Master students from elsewhere
-If you are interested in pursuing a Master degree at Leiden University, see [mastersinleiden.nl](http://www.mastersinleiden.nl/programmes/physics/en/introduction). Sometimes, we take master students or summer interns if we get exceptional applicants (this usually means very good grades and a personal recommendation).
+### Başka kurumlardan lisans / yüksek lisans öğrencileri
+Leiden Üniversitesi'nde yüksek lisans yapmak istiyorsanız [mastersinleiden.nl](http://www.mastersinleiden.nl/programmes/physics/en/introduction) adresine bakın. Olağanüstü başvurular geldiğinde (bu genellikle çok iyi notlar ve kişisel bir referans anlamına gelir) zaman zaman yüksek lisans öğrencisi ya da yaz stajyeri kabul ediyoruz.
 
 
 <figure>

@@ -1,7 +1,6 @@
 ---
-title: "MJKMH - Home"
+title: "MJKMH - Ana Sayfa"
 layout: homelay
-excerpt: "Allan Lab at Leiden University &rarr; LMU."
 sitemap: false
 permalink: /
 ---
@@ -43,18 +42,18 @@ permalink: /
     </div>
   <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
     <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
+    <span class="sr-only">Önceki</span>
   </a>
   <a class="right carousel-control" href="#carousel" role="button" data-slide="next">
     <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
+    <span class="sr-only">Sonraki</span>
   </a>
 </div>
 
 
-We are currently building up our instruments right in the center of Munich, in the *Sommerfeldkeller*, where Sommerfeld and Röntgen worked. We will exchange ideas with world class groups working in quantum physics, cold-atom many-body physics, and 2d quantum materials. We are also a proud member of the [SuperC consortium](https://superc2033.com/our-team/).
+Şu anda cihazlarımızı Münih'in tam merkezinde, Sommerfeld ve Röntgen'in çalıştığı *Sommerfeldkeller*'de kuruyoruz. Kuantum fiziği, soğuk atom çok cisim fiziği ve iki boyutlu kuantum malzemeler alanlarında çalışan dünya çapındaki gruplarla fikir alışverişinde bulunacağız. Ayrıca [SuperC konsorsiyumunun](https://superc2033.com/our-team/) gururlu bir üyesiyiz.
 
-**We are looking for passionate new PhD students, Postdocs, and Master students to join the team** [(more info)](https://www.allanlab.org/vacancies) **!**
+**Ekibimize katılacak tutkulu yeni doktora öğrencileri, doktora sonrası araştırmacılar ve yüksek lisans öğrencileri arıyoruz** [(ayrıntılar)]({{ site.url }}{{ site.baseurl }}/acik-pozisyonlar/) **!**
 
 
 

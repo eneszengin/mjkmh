@@ -1,5 +1,5 @@
 ---
-title: "MJKMH - Team"
+title: "MJKMH - Kişiler"
 layout: gridlay
 sitemap: false
 permalink: /kisiler/

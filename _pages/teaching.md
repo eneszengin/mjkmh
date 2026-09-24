@@ -1,47 +1,46 @@
 ---
-title: "Teaching"
+title: "MJKMH - Dersler"
 layout: textlay
-excerpt: "Practicals"
 sitemap: false
-permalink: /teaching.html
+permalink: /dersler/
 ---
-# Seminar
+# Seminer
 
-For the Seminar on experimental quantum matter research see [this page](https://www.allanlab.org/teaching_SEQMR/).
+Deneysel kuantum madde araştırmaları seminerine [bu sayfadan](https://www.allanlab.org/teaching_SEQMR/) ulaşabilirsiniz.
 
-# Practical Course
+# Uygulamalı Ders
 
-## Experiments in Superconductivity
+## Süperiletkenlik Deneyleri
 
-### 1. Superconducting Transitions, Magnetic Fields, and Currents
+### 1. Süperiletken Geçişler, Manyetik Alanlar ve Akımlar
 
-This experiment is an introduction to various fundamental concepts of superconductivity.
+Bu deney, süperiletkenliğin çeşitli temel kavramlarına bir giriştir.
 
-Students will cool down a superconductor—either a high-temperature superconductor or a conventional (“normal”) superconductor—below its critical temperature and record the resistance using a four-point measurement. By applying a current through the superconductor, the critical current will be determined.
+Öğrenciler bir süperiletkeni (yüksek sıcaklık süperiletkeni ya da geleneksel, "normal" bir süperiletken) kritik sıcaklığının altına soğutacak ve dört uçlu ölçümle direncini kaydedecektir. Süperiletkenden akım geçirilerek kritik akım belirlenecektir.
 
-The second part of the practical focuses on the Meissner–Ochsenfeld effect in high-\(T_c\) type-II superconductors, the emergence of the vortex state, and flux pinning. Students cycle a superconductor through its superconducting and non-superconducting states in various external magnetic fields.
+Uygulamanın ikinci bölümü, yüksek \(T_c\)'li II. tip süperiletkenlerde Meissner–Ochsenfeld etkisine, girdap durumunun ortaya çıkışına ve akı sabitlenmesine odaklanır. Öğrenciler bir süperiletkeni farklı dış manyetik alanlarda süperiletken ve süperiletken olmayan durumları arasında döngüye sokar.
 
-This demonstrates the implications of flux pinning and the Meissner–Ochsenfeld effect using the example of a levitating superconductor.
+Bu, akı sabitlenmesinin ve Meissner–Ochsenfeld etkisinin sonuçlarını havada asılı duran bir süperiletken örneğiyle gösterir.
 
 
-### 2. Magnetic Susceptibility of Superconductors Using a Mutual Inductance Technique
+### 2. Karşılıklı İndüktans Tekniğiyle Süperiletkenlerin Manyetik Duyarlılığı
 
-This experiment introduces students to the concept of magnetic susceptibility and measures its value across a superconducting transition.
+Bu deney öğrencileri manyetik duyarlılık kavramıyla tanıştırır ve bu büyüklüğün süperiletken geçiş boyunca değerini ölçer.
 
-The experiment is based on an A.C. mutual inductance technique. An alternating magnetic field is applied through an excitation coil, and the induced response is detected using a pair of oppositely connected pick-up coils. When a superconducting sample is placed in one of the pick-up coils, its strong diamagnetic response, arising from the Meissner effect, produces a measurable change in the induced voltage.
+Deney, A.C. karşılıklı indüktans tekniğine dayanır. Bir uyarma bobini aracılığıyla alternatif bir manyetik alan uygulanır ve oluşan tepki, ters bağlanmış bir çift algılama bobiniyle ölçülür. Süperiletken bir örnek algılama bobinlerinden birine yerleştirildiğinde, Meissner etkisinden kaynaklanan güçlü diyamanyetik tepkisi indüklenen gerilimde ölçülebilir bir değişim yaratır.
 
-Students will study the temperature dependence of this response and identify the transition into the superconducting state. The experiment teaches important concepts of magnetization, magnetic shielding, complex susceptibility, and provides exposure to sensitive detection techniques.
+Öğrenciler bu tepkinin sıcaklığa bağımlılığını inceleyecek ve süperiletken duruma geçişi belirleyecektir. Deney mıknatıslanma, manyetik perdeleme ve karmaşık duyarlılık gibi önemli kavramları öğretir ve hassas algılama teknikleriyle tanışma fırsatı sunar.
 
 ---
-## Signal Detection & Recovery
+## Sinyal Algılama ve Geri Kazanım
 
-### 1. Principles of Phase-Sensitive Detection: Building a Lock-In Amplifier
+### 1. Faza Duyarlı Algılamanın İlkeleri: Kilitlemeli Yükselteç (Lock-In) Yapımı
 
-Phase-sensitive detection is a powerful technique for extracting signals at a specific frequency while suppressing broadband background noise.
+Faza duyarlı algılama, geniş bantlı arka plan gürültüsünü bastırırken belirli bir frekanstaki sinyalleri ayıklamak için güçlü bir tekniktir.
 
-This experiment provides an introduction to the lock-in amplifier, a fundamental instrument for many modern experimental techniques. Participants will design and construct a lock-in circuit from basic components, exploring its internal architecture and operational constraints.
+Bu deney, birçok modern deneysel tekniğin temel cihazı olan kilitlemeli yükseltece bir giriş sunar. Katılımcılar temel bileşenlerden bir kilitlemeli yükselteç devresi tasarlayıp kuracak, iç yapısını ve çalışma sınırlarını inceleyecektir.
 
-The lab bridges the gap between the mathematical model and its physical implementation, allowing students to gain an intuitive understanding of the inner workings of this device.
+Laboratuvar, matematiksel model ile fiziksel uygulaması arasındaki boşluğu kapatarak öğrencilerin bu cihazın iç işleyişini sezgisel olarak kavramasını sağlar.
 
 
 <br><br><br><br><br><br><br>

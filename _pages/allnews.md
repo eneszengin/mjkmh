@@ -1,12 +1,11 @@
 ---
-title: "News"
+title: "MJKMH - Haberler"
 layout: textlay
-excerpt: "Allan Lab at Leiden University."
 sitemap: false
-permalink: /allnews.html
+permalink: /haberler/
 ---
 
-# News
+# Haberler
 
 {% for article in site.data.news %}
 <p>{{ article.date }} <br> {{ article.headline | markdownify}}</p>
