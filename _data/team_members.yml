@@ -5,39 +5,79 @@
 - name: İrfan Yolcubal
   photo: irfan-yolcubal.png
   info: Prof. Dr.
-  education: []
+  education:
+    - "Lisans:"
+    - "Yüksek Lisans:"
+    - "Doktora:"
+    - "Doktora Sırası:"
+    - "Post Doktora:"
 
 - name: Enes Zengin
   photo: enes-zengin.png
   info: Doç. Dr.
-  education: []
+  education:
+    - "Lisans:"
+    - "Yüksek Lisans:"
+    - "Doktora:"
+    - "Doktora Sırası:"
+    - "Post Doktora:"
 
 - name: Yılmaz Mahmutoğlu
   photo: yilmaz-mahmutoglu.png
   info: Doç. Dr.
-  education: []
+  education:
+    - "Lisans:"
+    - "Yüksek Lisans:"
+    - "Doktora:"
+    - "Doktora Sırası:"
+    - "Post Doktora:"
 
 - name: Ömer Ündül
   photo: omer-undul.png
   info: Doç. Dr.
-  education: []
+  education:
+    - "Lisans:"
+    - "Yüksek Lisans:"
+    - "Doktora:"
+    - "Doktora Sırası:"
+    - "Post Doktora:"
 
 - name: Özge Dinç Göğüş
   photo: ozge-dinc-gogus.png
   info: Doç. Dr.
-  education: []
+  education:
+    - "Lisans:"
+    - "Yüksek Lisans:"
+    - "Doktora:"
+    - "Doktora Sırası:"
+    - "Post Doktora:"
 
 - name: Erkan Bozkurtoğlu
   photo: erkan-bozkurtoglu.png
   info: Dr. Öğr. Üyesi
-  education: []
+  education:
+    - "Lisans:"
+    - "Yüksek Lisans:"
+    - "Doktora:"
+    - "Doktora Sırası:"
+    - "Post Doktora:"
 
 - name: Mehmet Korkut
   photo: mehmet-korkut.png
   info: Arş. Gör. Dr.
-  education: []
+  education:
+    - "Lisans:"
+    - "Yüksek Lisans:"
+    - "Doktora:"
+    - "Doktora Sırası:"
+    - "Post Doktora:"
 
 - name: Mehmet Mert Doğu
   photo: mehmet-mert-dogu.png
   info: Arş. Gör.
-  education: []
+  education:
+    - "Lisans:"
+    - "Yüksek Lisans:"
+    - "Doktora:"
+    - "Doktora Sırası:"
+    - "Post Doktora:"
