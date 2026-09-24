@@ -51,7 +51,7 @@ permalink: /kisiler/
 <div class="col-sm-6 clearfix team-member{% if anahtar != 'misafir' %} ogrenci{% endif %}">
   <img src="{{ site.url }}{{ site.baseurl }}/images/kisiler/{{ kisi.photo | default: 'fotograf-yok.png' }}" class="img-responsive" width="{% if anahtar == 'misafir' %}25%{% else %}18%{% endif %}" style="float: left" />
   <h4>{{ kisi.name }} {{ kisi.surname }}{% if kisi.info %}, {{ kisi.info }}{% endif %}</h4>
-  {% if kisi.institution %}<p class="danisman">{{ kisi.institution }}</p>{% endif %}
+  {% if kisi.institution %}<ul style="overflow: hidden"><li>{{ kisi.institution }}</li></ul>{% endif %}
   {% if kisi.advisor %}<p class="danisman">Danışman: {{ kisi.advisor }}</p>{% endif %}
 </div>
 {% endfor %}

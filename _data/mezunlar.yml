@@ -4,14 +4,16 @@
 doktora:
   - name: Mehmet
     surname: KORKUT
+    advisor: Doç. Dr. Vural Yavuz
 
 yuksek_lisans:
   - name: Mehmet Mert
     surname: DOĞU
+    advisor: Doç. Dr. Ömer Ündül
 
 lisans:
-  - name: Doğan
-    surname: CAN
+  - name: Doğan Can
+    surname: DURHAN
     advisor: Doç. Dr. Ömer Ündül
   - name: Eda
     surname: KARANFİL
