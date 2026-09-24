@@ -17,6 +17,9 @@ url: ""
 team_show_department: false
 team_show_years: false
 
+# Yayınlar sayfasında resim ve özetle kutu olarak gösterilecek yıllar
+yayin_detayli_yillar: ["2026"]
+
 include:
   - .htaccess
   - _pages

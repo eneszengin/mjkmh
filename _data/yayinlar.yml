@@ -2,13 +2,9 @@
 # Yıla göre azalan, yıl içinde başlığa göre sıralı. Düzeltme (Erratum) kayıtları ve
 # Scopus'ta iki kez dizinlenen bildirilerin DOI'siz kopyaları çıkarıldı.
 # members: MJKMH üyeleri (Scopus'taki yazar adıyla)
-
-- year: 2028
-  title: "Mineralogical characteristics of oxidized copper-porphyry ores at the Koktaszhal deposit"
-  source: "Kompleksnoe Ispolzovanie Mineralnogo Syra"
-  type: Makale
-  doi: "10.31643/2028/6445.26"
-  members: ["Zengin E."]
+# abstract, image: isteğe bağlı; _config.yml yayin_detayli_yillar içindeki yıllarda kutu olarak gösterilir
+#   (image: images/yayinlar/ içindeki dosya adı; yoksa gri kare)
+# Koktaszhal makalesinin yılı Scopus'ta 2028; Enes Zengin'in isteğiyle 2026 yapıldı.
 
 - year: 2026
   title: "Assessment of a Weathering-Induced Rockfall Event and Development of Minimal-Intervention Mitigation Strategies in an Urban Environment"
@@ -50,6 +46,13 @@
   source: "Remote Sensing in Earth Systems Sciences"
   type: Makale
   doi: "10.1007/s41976-026-00287-y"
+  members: ["Zengin E."]
+
+- year: 2026
+  title: "Mineralogical characteristics of oxidized copper-porphyry ores at the Koktaszhal deposit"
+  source: "Kompleksnoe Ispolzovanie Mineralnogo Syra"
+  type: Makale
+  doi: "10.31643/2028/6445.26"
   members: ["Zengin E."]
 
 - year: 2026
@@ -860,3 +863,4 @@
   type: Makale
   doi: "10.1029/97JE01873"
   members: ["Yolcubal İ."]
+
