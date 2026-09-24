@@ -18,8 +18,7 @@ permalink: /team/
 
 <div class="col-sm-6 clearfix">
   <img src="{{ site.url }}{{ site.baseurl }}/images/kisiler/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
-  <h4>{{ member.name }}</h4>
-  <i>{{ member.info }}</i>
+  <h4>{{ member.name }} {{ member.surname }}, {{ member.info }}</h4>
   <ul style="overflow: hidden">
   {% for line in member.education %}
   <li> {{ line | markdownify }} </li>

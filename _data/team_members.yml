@@ -1,8 +1,10 @@
 # Çalışma grubu üyeleri (sayfadaki sıra bu dosyadaki sıradır)
+# surname: büyük harfle (Türkçe İ elle yazılır)
 # photo: images/kisiler/ içindeki dosya adı
 # education: her satır "Aşama: Üniversite, Bölüm/Program, Yıl" biçiminde; boş bırakılabilir
 
-- name: İrfan Yolcubal
+- name: İrfan
+  surname: YOLCUBAL
   photo: irfan-yolcubal.png
   info: Prof. Dr.
   education:
@@ -12,7 +14,8 @@
     - "Doktora Sırası:"
     - "Post Doktora:"
 
-- name: Enes Zengin
+- name: Enes
+  surname: ZENGİN
   photo: enes-zengin.png
   info: Doç. Dr.
   education:
@@ -22,7 +25,8 @@
     - "Doktora Sırası:"
     - "Post Doktora:"
 
-- name: Yılmaz Mahmutoğlu
+- name: Yılmaz
+  surname: MAHMUTOĞLU
   photo: yilmaz-mahmutoglu.png
   info: Doç. Dr.
   education:
@@ -32,7 +36,8 @@
     - "Doktora Sırası:"
     - "Post Doktora:"
 
-- name: Ömer Ündül
+- name: Ömer
+  surname: ÜNDÜL
   photo: omer-undul.png
   info: Doç. Dr.
   education:
@@ -42,7 +47,8 @@
     - "Doktora Sırası:"
     - "Post Doktora:"
 
-- name: Özge Dinç Göğüş
+- name: Özge
+  surname: DİNÇ GÖĞÜŞ
   photo: ozge-dinc-gogus.png
   info: Doç. Dr.
   education:
@@ -52,7 +58,8 @@
     - "Doktora Sırası:"
     - "Post Doktora:"
 
-- name: Erkan Bozkurtoğlu
+- name: Erkan
+  surname: BOZKURTOĞLU
   photo: erkan-bozkurtoglu.png
   info: Dr. Öğr. Üyesi
   education:
@@ -62,7 +69,8 @@
     - "Doktora Sırası:"
     - "Post Doktora:"
 
-- name: Mehmet Korkut
+- name: Mehmet
+  surname: KORKUT
   photo: mehmet-korkut.png
   info: Arş. Gör. Dr.
   education:
@@ -72,7 +80,8 @@
     - "Doktora Sırası:"
     - "Post Doktora:"
 
-- name: Mehmet Mert Doğu
+- name: Mehmet Mert
+  surname: DOĞU
   photo: mehmet-mert-dogu.png
   info: Arş. Gör.
   education:
