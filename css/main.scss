@@ -61,6 +61,12 @@ firstp {
 	text-align: center;
 }
 
+.news-band .news-head { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 8px; }
+.news-band .news-head h4 { margin: 0; font-weight: bold; }
+.news-band .news-item { border-left: 3px solid #ddd; padding-top: 4px; padding-bottom: 4px; }
+.news-band .news-item p { margin-bottom: 4px; }
+.news-date { font-size: 13px; color: #777; }
+
 #newsid img {
 	margin-top: 6px;
 	margin-bottom: 6px;

@@ -1,9 +1,13 @@
 # Kişiler sayfasının altındaki Mezunlar bölümü (ada göre Türk alfabesiyle sıralı)
 # Her kişi için: name, surname (büyük harfle), isteğe bağlı advisor (danışman), year
 
-doktora: []
+doktora:
+  - name: Mehmet
+    surname: KORKUT
 
-yuksek_lisans: []
+yuksek_lisans:
+  - name: Mehmet Mert
+    surname: DOĞU
 
 lisans:
   - name: Doğan
