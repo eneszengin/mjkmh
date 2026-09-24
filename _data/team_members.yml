@@ -8,9 +8,9 @@
   photo: irfan-yolcubal.png
   info: Prof. Dr.
   education:
-    - "Lisans:"
-    - "Yüksek Lisans:"
-    - "Doktora:"
+    - "Lisans: Karadeniz Technical University, Jeoloji Mühendisliği Bölümü, 1988–1992"
+    - "Yüksek Lisans: Purdue University, Earth And Atmospheric Science Department, 1994–1996"
+    - "Doktora: University of Arizona, Hydrology And Water Resources Department, 1996–2001"
     - "Doktora Sırası:"
     - "Post Doktora:"
 
@@ -19,11 +19,11 @@
   photo: enes-zengin.png
   info: Doç. Dr.
   education:
-    - "Lisans:"
-    - "Yüksek Lisans:"
-    - "Doktora:"
-    - "Doktora Sırası:"
-    - "Post Doktora:"
+    - "Lisans: Kocaeli Üniversitesi, Jeoloji Mühendisliği, 2004–2009"
+    - "Yüksek Lisans: Kütahya Dumlupınar Üniversitesi, Jeoloji Mühendisliği, 2010–2013"
+    - "Doktora: Kütahya Dumlupınar Üniversitesi, Jeoloji Mühendisliği, 2013–2019"
+    - "Doktora Sırası: University of Aberdeen, Geology and Geophysics, 2017–2018"
+    - "Post Doktora: The University of British Columbia, Earth, Ocean and Atmospheric Sciences, 2021–2022"
 
 - name: Yılmaz
   surname: MAHMUTOĞLU
@@ -41,11 +41,11 @@
   photo: omer-undul.png
   info: Doç. Dr.
   education:
-    - "Lisans:"
-    - "Yüksek Lisans:"
-    - "Doktora:"
+    - "Lisans: İstanbul Üniversitesi, Jeoloji Mühendisliği"
+    - "Yüksek Lisans: İstanbul Üniversitesi, Jeoloji Mühendisliği"
+    - "Doktora: İstanbul Üniversitesi, Jeoloji Mühendisliği"
     - "Doktora Sırası:"
-    - "Post Doktora:"
+    - "Post Doktora: ETH Zürich"
 
 - name: Özge
   surname: DİNÇ GÖĞÜŞ
@@ -74,9 +74,9 @@
   photo: mehmet-korkut.png
   info: Arş. Gör. Dr.
   education:
-    - "Lisans:"
-    - "Yüksek Lisans:"
-    - "Doktora:"
+    - "Lisans: Akdeniz Üniversitesi, Jeoloji Mühendisliği"
+    - "Yüksek Lisans: İstanbul Teknik Üniversitesi, Jeoloji Mühendisliği"
+    - "Doktora: İstanbul Teknik Üniversitesi, Jeoloji Mühendisliği"
     - "Doktora Sırası:"
     - "Post Doktora:"
 
@@ -85,7 +85,7 @@
   photo: mehmet-mert-dogu.png
   info: Arş. Gör.
   education:
-    - "Lisans:"
+    - "Lisans: İstanbul Teknik Üniversitesi, Jeoloji Mühendisliği ve Jeofizik Mühendisliği (ÇAP)"
     - "Yüksek Lisans:"
     - "Doktora:"
     - "Doktora Sırası:"
