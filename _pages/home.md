@@ -51,7 +51,7 @@ permalink: /
 </div>
 
 
-Şu anda cihazlarımızı Münih'in tam merkezinde, Sommerfeld ve Röntgen'in çalıştığı *Sommerfeldkeller*'de kuruyoruz. Kuantum fiziği, soğuk atom çok cisim fiziği ve iki boyutlu kuantum malzemeler alanlarında çalışan dünya çapındaki gruplarla fikir alışverişinde bulunacağız. Ayrıca [SuperC konsorsiyumunun](https://superc2033.com/our-team/) gururlu bir üyesiyiz.
+Şu anda cihazlarımızı Münih'in tam merkezinde, Sommerfeld ve Röntgen'in çalıştığı *Sommerfeldkeller*’de kuruyoruz. Kuantum fiziği, soğuk atom çok cisim fiziği ve iki boyutlu kuantum malzemeler alanlarında çalışan dünya çapındaki gruplarla fikir alışverişinde bulunacağız. Ayrıca [SuperC konsorsiyumunun](https://superc2033.com/our-team/) gururlu bir üyesiyiz.
 
 **Ekibimize katılacak tutkulu yeni doktora öğrencileri, doktora sonrası araştırmacılar ve yüksek lisans öğrencileri arıyoruz** [(ayrıntılar)]({{ site.url }}{{ site.baseurl }}/acik-pozisyonlar/) **!**
 

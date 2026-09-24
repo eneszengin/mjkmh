@@ -18,7 +18,7 @@ Bu deney, süperiletkenliğin çeşitli temel kavramlarına bir giriştir.
 
 Öğrenciler bir süperiletkeni (yüksek sıcaklık süperiletkeni ya da geleneksel, "normal" bir süperiletken) kritik sıcaklığının altına soğutacak ve dört uçlu ölçümle direncini kaydedecektir. Süperiletkenden akım geçirilerek kritik akım belirlenecektir.
 
-Uygulamanın ikinci bölümü, yüksek \(T_c\)'li II. tip süperiletkenlerde Meissner–Ochsenfeld etkisine, girdap durumunun ortaya çıkışına ve akı sabitlenmesine odaklanır. Öğrenciler bir süperiletkeni farklı dış manyetik alanlarda süperiletken ve süperiletken olmayan durumları arasında döngüye sokar.
+Uygulamanın ikinci bölümü, yüksek \(T_c\)’li II. tip süperiletkenlerde Meissner–Ochsenfeld etkisine, girdap durumunun ortaya çıkışına ve akı sabitlenmesine odaklanır. Öğrenciler bir süperiletkeni farklı dış manyetik alanlarda süperiletken ve süperiletken olmayan durumları arasında döngüye sokar.
 
 Bu, akı sabitlenmesinin ve Meissner–Ochsenfeld etkisinin sonuçlarını havada asılı duran bir süperiletken örneğiyle gösterir.
 
