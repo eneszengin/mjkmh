@@ -48,8 +48,8 @@ permalink: /kisiler/
 <div class="row">
 {% assign anahtar = parca[0] %}
 {% for kisi in site.data.ogrenciler[anahtar] %}
-<div class="col-sm-6 clearfix team-member ogrenci">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/kisiler/{{ kisi.photo | default: 'fotograf-yok.png' }}" class="img-responsive" width="18%" style="float: left" />
+<div class="col-sm-6 clearfix team-member{% if anahtar != 'misafir' %} ogrenci{% endif %}">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/kisiler/{{ kisi.photo | default: 'fotograf-yok.png' }}" class="img-responsive" width="{% if anahtar == 'misafir' %}25%{% else %}18%{% endif %}" style="float: left" />
   <h4>{{ kisi.name }} {{ kisi.surname }}{% if kisi.info %}, {{ kisi.info }}{% endif %}</h4>
   {% if kisi.institution %}<p class="danisman">{{ kisi.institution }}</p>{% endif %}
   {% if kisi.advisor %}<p class="danisman">Danışman: {{ kisi.advisor }}</p>{% endif %}
