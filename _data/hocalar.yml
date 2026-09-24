@@ -1,0 +1,23 @@
+# Hocalarımız sayfası (sayfadaki sıra bu dosyadaki sıradır)
+# surname: büyük harfle (Türkçe İ elle yazılır)
+# info: unvan (isteğe bağlı)
+# photo: images/hocalar/ içindeki dosya adı (isteğe bağlı)
+# bio: biyografi, Markdown; paragraflar arasında boş satır (isteğe bağlı)
+
+- name: Kemal
+  surname: ERGUVANLI
+  info:
+  photo:
+  bio:
+
+- name: Mahir
+  surname: VARDAR
+  info:
+  photo:
+  bio:
+
+- name: Erdoğan
+  surname: YÜZER
+  info:
+  photo:
+  bio:
