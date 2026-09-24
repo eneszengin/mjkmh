@@ -12,12 +12,21 @@ permalink: /yayinlar/
 {% unless forloop.first %}<hr>{% endunless %}
 <h2 class="kisi-bolum yayin-yil">{{ yil.name }}</h2>
 {% if site.yayin_detayli_yillar contains yil.name %}
-<div class="row yayin-kutular">
 {% for y in yil.items %}
-<div class="col-sm-6 clearfix">
-<div class="well yayin-kutu">
-<pubtit>{{ y.title }}</pubtit>
-<img src="{{ site.url }}{{ site.baseurl }}/images/{% if y.image %}yayinlar/{{ y.image }}{% else %}kisiler/fotograf-yok.png{% endif %}" class="img-responsive" width="33%" style="float: left" />
+<div class="row yayin-detay">
+<div class="col-sm-4">
+<img src="{{ site.url }}{{ site.baseurl }}/images/{% if y.image %}yayinlar/{{ y.image }}{% else %}kisiler/fotograf-yok.png{% endif %}" class="img-responsive yayin-resim" alt="" />
+</div>
+<div class="col-sm-8">
+<p class="yayin-baslik"><strong>{{ y.title }}</strong></p>
+<p class="danisman">{% if y.authors %}{% assign yazarlar = y.authors %}{% for m in y.members %}{% capture kalin %}<strong>{{ m }}</strong>{% endcapture %}{% assign yazarlar = yazarlar | replace: m, kalin %}{% endfor %}{{ yazarlar }}{% else %}{{ y.members | join: ", " }}{% endif %}</p>
+<p><em>{{ y.source }}</em> · {{ y.type }}{% if y.quartile %} · <span class="quartile">{{ y.quartile }}</span>{% endif %}{% if y.doi %} · <a href="https://doi.org/{{ y.doi }}" target="_blank" rel="noopener">doi:{{ y.doi }}</a>{% endif %}</p>
+{% if y.abstract %}<div class="ozet kisa">{{ y.abstract }}</div>
+<a href="#" class="devami" onclick="var o=this.previousElementSibling;o.classList.toggle('kisa');this.textContent=o.classList.contains('kisa')?'devamı':'kapat';return false;">devamı</a>{% endif %}
+</div>
+</div>
+{% endfor %}
+{% else %}kisiler/fotograf-yok.png{% endif %}" class="img-responsive" width="33%" style="float: left" />
 {% if y.abstract %}<p>{{ y.abstract }}</p>{% endif %}
 <p><em>{{ y.source }}</em> · {{ y.type }}{% if y.quartile %} · <span class="quartile">{{ y.quartile }}</span>{% endif %}</p>
 <p class="danisman">{{ y.members | join: ", " }}</p>

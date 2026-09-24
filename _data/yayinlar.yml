@@ -3,7 +3,8 @@
 # Scopus'ta iki kez dizinlenen bildirilerin DOI'siz kopyaları çıkarıldı.
 # quartile: Scopus CiteScore çeyreği (dergi için güncel değer, dışa aktarım tarihindeki)
 # members: MJKMH üyeleri (Scopus'taki yazar adıyla)
-# abstract, image: isteğe bağlı; _config.yml yayin_detayli_yillar içindeki yıllarda kutu olarak gösterilir
+# abstract, image, authors: isteğe bağlı; _config.yml yayin_detayli_yillar içindeki yıllarda
+#   resim solda, başlık/yazarlar/özet sağda gösterilir (authors içinde members kalın yazılır)
 #   (image: images/yayinlar/ içindeki dosya adı; yoksa gri kare)
 # Koktaszhal makalesinin yılı Scopus'ta 2028; Enes Zengin'in isteğiyle 2026 yapıldı.
 

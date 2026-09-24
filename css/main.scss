@@ -92,9 +92,13 @@ firstp {
 .mezunlar ul { padding-left: 18px; }
 .yayinlar { padding-left: 18px; }
 .yayinlar li { margin-bottom: 12px; font-size: 15px; }
-.yayin-kutu { font-size: 15px; }
-.yayin-kutu pubtit { display: block; margin-bottom: 4px; }
-.yayin-kutu img { margin: 8px 14px 6px 0 !important; }
+.yayin-detay { margin-bottom: 26px; font-size: 15px; }
+.yayin-detay .yayin-resim { width: 100%; margin: 4px 0 10px 0 !important; }
+.yayin-detay p { margin-bottom: 6px; }
+.yayin-baslik { font-size: 17px; }
+.ozet { line-height: 1.5; text-align: justify; }
+.ozet.kisa { display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical; overflow: hidden; }
+.devami { font-size: 14px; }
 .mezunlar li { margin-bottom: 6px; }
 @media (max-width: 767px) { .mezun-bos-baslik { display: none; } }
 
