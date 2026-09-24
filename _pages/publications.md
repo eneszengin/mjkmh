@@ -13,7 +13,8 @@ permalink: /yayinlar/
 {% for yil in yillar %}
 {% unless forloop.first %}<hr>{% endunless %}
 <h2 class="kisi-bolum yayin-yil">{{ yil.name }}</h2>
-{% if site.yayin_detayli_yillar contains yil.name %}
+{% assign yil_metin = yil.name | append: "" %}
+{% if site.yayin_detayli_yillar contains yil_metin %}
 {% for y in yil.items %}
 <div class="row yayin-detay">
 <div class="col-sm-4">
