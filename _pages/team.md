@@ -45,11 +45,15 @@ permalink: /kisiler/
 {% for bolum in bolumler %}
 {% assign parca = bolum | split: ":" %}
 <h2 class="kisi-bolum">{{ parca[1] }}</h2>
-<ul class="ogrenciler">
+<div class="row">
 {% for kisi in site.data.ogrenciler[parca[0]] %}
-<li>{{ kisi.name }} {{ kisi.surname }}{% if kisi.info %}, {{ kisi.info }}{% endif %}</li>
+<div class="col-sm-6 clearfix team-member ogrenci">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/kisiler/{{ kisi.photo | default: 'fotograf-yok.png' }}" class="img-responsive" width="18%" style="float: left" />
+  <h4>{{ kisi.name }} {{ kisi.surname }}{% if kisi.info %}, {{ kisi.info }}{% endif %}</h4>
+  {% if kisi.advisor %}<p class="danisman">Danışman: {{ kisi.advisor }}</p>{% endif %}
+</div>
 {% endfor %}
-</ul>
+</div>
 <hr>
 {% endfor %}
 
@@ -61,7 +65,7 @@ permalink: /kisiler/
 <h3 class="kisi-bolum">{{ parca[1] }}</h3>
 <ul class="mezunlar">
 {% for kisi in site.data.mezunlar[parca[0]] %}
-<li>{{ kisi.name }} {{ kisi.surname }}{% if kisi.year %}, {{ kisi.year }}{% endif %}</li>
+<li>{{ kisi.name }} {{ kisi.surname }}{% if kisi.year %}, {{ kisi.year }}{% endif %}{% if kisi.advisor %} <span class="danisman">(Danışman: {{ kisi.advisor }})</span>{% endif %}</li>
 {% endfor %}
 </ul>
 {% endfor %}

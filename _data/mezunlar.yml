@@ -1,12 +1,23 @@
-# Kişiler sayfasının altındaki Mezunlar bölümü
-# Her kişi için: name, surname (büyük harfle), isteğe bağlı year (mezuniyet yılı)
-# Örnek:
-#   - name: Ad
-#     surname: SOYAD
-#     year: 2024
+# Kişiler sayfasının altındaki Mezunlar bölümü (ada göre Türk alfabesiyle sıralı)
+# Her kişi için: name, surname (büyük harfle), isteğe bağlı advisor (danışman), year
 
 doktora: []
 
 yuksek_lisans: []
 
-lisans: []
+lisans:
+  - name: Doğan
+    surname: CAN
+    advisor: Doç. Dr. Ömer Ündül
+  - name: Eda
+    surname: KARANFİL
+    advisor: Doç. Dr. Enes Zengin
+  - name: Emirhan
+    surname: KILIÇ
+    advisor: Doç. Dr. Ömer Ündül
+  - name: Kübra Beste
+    surname: KARACA
+    advisor: Doç. Dr. Enes Zengin
+  - name: Ruben
+    surname: TOROS
+    advisor: Doç. Dr. Ömer Ündül
