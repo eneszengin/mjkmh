@@ -1,55 +1,105 @@
 # Çalışma grubu üyeleri (sayfadaki sıra bu dosyadaki sıradır)
-# surname: büyük harfle (Türkçe İ elle yazılır)
-# photo: images/kisiler/ içindeki dosya adı
-# education: yukarıdan aşağı Post Doktora → Lisans; yalnızca yapılan aşamalar; her satır "Aşama: Üniversite, Bölüm/Program, Yıl" biçiminde; boş bırakılabilir
+# surname: büyük harfle (Türkçe İ elle yazılır); photo: images/kisiler/ içindeki dosya adı
+# education: yukarıdan aşağı Post Doktora → Lisans; yalnızca yapılan aşamalar
+#   level, university zorunlu; department ve years isteğe bağlı
+#   (department şu an sayfada gösterilmiyor: _config.yml team_show_department)
 
 - name: İrfan
   surname: YOLCUBAL
   photo: irfan-yolcubal.png
   info: Prof. Dr.
   education:
-    - "Doktora: University of Arizona, Hydrology And Water Resources Department, 1996–2001"
-    - "Yüksek Lisans: Purdue University, Earth And Atmospheric Science Department, 1994–1996"
-    - "Lisans: Karadeniz Teknik Üniversitesi, Jeoloji Mühendisliği, 1988–1992"
-
-- name: Enes
-  surname: ZENGİN
-  photo: enes-zengin.png
-  info: Doç. Dr.
-  education:
-    - "Post Doktora: The University of British Columbia, Earth, Ocean and Atmospheric Sciences, 2021–2022"
-    - "Doktora Sırası: University of Aberdeen, Geology and Geophysics, 2017–2018"
-    - "Doktora: Kütahya Dumlupınar Üniversitesi, Jeoloji Mühendisliği, 2013–2019"
-    - "Yüksek Lisans: Kütahya Dumlupınar Üniversitesi, Jeoloji Mühendisliği, 2010–2013"
-    - "Lisans: Kocaeli Üniversitesi, Jeoloji Mühendisliği, 2004–2009"
+    - level: Doktora
+      university: "University of Arizona"
+      department: "Hydrology And Water Resources Department"
+      years: "1996–2001"
+    - level: Yüksek Lisans
+      university: "Purdue University"
+      department: "Earth And Atmospheric Science Department"
+      years: "1994–1996"
+    - level: Lisans
+      university: "Karadeniz Teknik Üniversitesi"
+      department: "Jeoloji Mühendisliği"
+      years: "1988–1992"
 
 - name: Yılmaz
   surname: MAHMUTOĞLU
   photo: yilmaz-mahmutoglu.png
   info: Doç. Dr.
   education:
-    - "Doktora: İstanbul Teknik Üniversitesi, Jeoloji Mühendisliği, 1991–1995"
-    - "Yüksek Lisans: İstanbul Teknik Üniversitesi, Jeoloji Mühendisliği, 1985–1989"
-    - "Lisans: İstanbul Teknik Üniversitesi, Jeoloji Mühendisliği, 1981–1985"
+    - level: Doktora
+      university: "İstanbul Teknik Üniversitesi"
+      department: "Jeoloji Mühendisliği"
+      years: "1991–1995"
+    - level: Yüksek Lisans
+      university: "İstanbul Teknik Üniversitesi"
+      department: "Jeoloji Mühendisliği"
+      years: "1985–1989"
+    - level: Lisans
+      university: "İstanbul Teknik Üniversitesi"
+      department: "Jeoloji Mühendisliği"
+      years: "1981–1985"
 
 - name: Ömer
   surname: ÜNDÜL
   photo: omer-undul.png
   info: Doç. Dr.
   education:
-    - "Post Doktora: ETH Zürich"
-    - "Doktora: İstanbul Üniversitesi, Jeoloji Mühendisliği"
-    - "Yüksek Lisans: İstanbul Üniversitesi, Jeoloji Mühendisliği"
-    - "Lisans: İstanbul Üniversitesi, Jeoloji Mühendisliği"
+    - level: Post Doktora
+      university: "ETH Zürich"
+    - level: Doktora
+      university: "İstanbul Üniversitesi"
+      department: "Jeoloji Mühendisliği"
+    - level: Yüksek Lisans
+      university: "İstanbul Üniversitesi"
+      department: "Jeoloji Mühendisliği"
+    - level: Lisans
+      university: "İstanbul Üniversitesi"
+      department: "Jeoloji Mühendisliği"
+
+- name: Enes
+  surname: ZENGİN
+  photo: enes-zengin.png
+  info: Doç. Dr.
+  education:
+    - level: Post Doktora
+      university: "The University of British Columbia"
+      department: "Earth, Ocean and Atmospheric Sciences"
+      years: "2021–2022"
+    - level: Doktora Sırası
+      university: "University of Aberdeen"
+      department: "Geology and Geophysics"
+      years: "2017–2018"
+    - level: Doktora
+      university: "Kütahya Dumlupınar Üniversitesi"
+      department: "Jeoloji Mühendisliği"
+      years: "2013–2019"
+    - level: Yüksek Lisans
+      university: "Kütahya Dumlupınar Üniversitesi"
+      department: "Jeoloji Mühendisliği"
+      years: "2010–2013"
+    - level: Lisans
+      university: "Kocaeli Üniversitesi"
+      department: "Jeoloji Mühendisliği"
+      years: "2004–2009"
 
 - name: Özge
   surname: DİNÇ GÖĞÜŞ
   photo: ozge-dinc-gogus.png
   info: Doç. Dr.
   education:
-    - "Doktora: Çanakkale Onsekiz Mart Üniversitesi, Jeoloji Mühendisliği, 2010–2016"
-    - "Yüksek Lisans: Hacettepe Üniversitesi, Jeoloji Mühendisliği, 2008–2010"
-    - "Lisans: Hacettepe Üniversitesi, Jeoloji Mühendisliği, 2002–2007"
+    - level: Doktora
+      university: "Çanakkale Onsekiz Mart Üniversitesi"
+      department: "Jeoloji Mühendisliği"
+      years: "2010–2016"
+    - level: Yüksek Lisans
+      university: "Hacettepe Üniversitesi"
+      department: "Jeoloji Mühendisliği"
+      years: "2008–2010"
+    - level: Lisans
+      university: "Hacettepe Üniversitesi"
+      department: "Jeoloji Mühendisliği"
+      years: "2002–2007"
 
 - name: Erkan
   surname: BOZKURTOĞLU
@@ -62,13 +112,24 @@
   photo: mehmet-korkut.png
   info: Arş. Gör. Dr.
   education:
-    - "Doktora: İstanbul Teknik Üniversitesi, Jeoloji Mühendisliği"
-    - "Yüksek Lisans: İstanbul Teknik Üniversitesi, Jeoloji Mühendisliği"
-    - "Lisans: Akdeniz Üniversitesi, Jeoloji Mühendisliği"
+    - level: Doktora
+      university: "İstanbul Teknik Üniversitesi"
+      department: "Jeoloji Mühendisliği"
+    - level: Yüksek Lisans
+      university: "İstanbul Teknik Üniversitesi"
+      department: "Jeoloji Mühendisliği"
+    - level: Lisans
+      university: "Akdeniz Üniversitesi"
+      department: "Jeoloji Mühendisliği"
 
 - name: Mehmet Mert
   surname: DOĞU
   photo: mehmet-mert-dogu.png
   info: Arş. Gör.
   education:
-    - "Lisans: İstanbul Teknik Üniversitesi, Jeoloji Mühendisliği ve Jeofizik Mühendisliği (ÇAP)"
+    - level: Yüksek Lisans
+      university: "İstanbul Teknik Üniversitesi"
+      department: "Jeoloji Mühendisliği"
+    - level: Lisans
+      university: "İstanbul Teknik Üniversitesi"
+      department: "Jeoloji Mühendisliği ve Jeofizik Mühendisliği (ÇAP)"

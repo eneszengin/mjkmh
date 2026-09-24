@@ -20,8 +20,8 @@ permalink: /team/
   <img src="{{ site.url }}{{ site.baseurl }}/images/kisiler/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
   <h4>{{ member.name }} {{ member.surname }}, {{ member.info }}</h4>
   <ul style="overflow: hidden">
-  {% for line in member.education %}
-  <li> {{ line | markdownify }} </li>
+  {% for edu in member.education %}
+  <li>{{ edu.level }}: {{ edu.university }}{% if site.team_show_department and edu.department %}, {{ edu.department }}{% endif %}{% if edu.years %}, {{ edu.years }}{% endif %}</li>
   {% endfor %}
   </ul>
 </div>

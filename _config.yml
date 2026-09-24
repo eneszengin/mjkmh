@@ -13,6 +13,9 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "/mjkmh" # geçici: eneszengin.github.io/mjkmh; mjkmh.itu.edu.tr bağlanınca "" olacak
 url: ""
 
+# Team sayfasında eğitim satırlarında bölüm adı gösterilsin mi
+team_show_department: false
+
 include:
   - .htaccess
   - _pages
