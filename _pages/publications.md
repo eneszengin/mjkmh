@@ -16,7 +16,7 @@ permalink: /yayinlar/
 {% assign yil_metin = yil.name | append: "" %}
 {% if site.yayin_detayli_yillar contains yil_metin %}
 {% for y in yil.items %}
-<div class="row yayin-detay">
+<div class="row yayin-detay" markdown="0">
 <div class="col-sm-4">
 <img src="{{ site.url }}{{ site.baseurl }}/images/{% if y.image %}yayinlar/{{ y.image }}{% else %}kisiler/fotograf-yok.png{% endif %}" class="img-responsive yayin-resim" alt="" />
 {% if y.image_credit %}<p class="gorsel-kaynak">Görsel: {{ y.image_credit }}</p>{% endif %}

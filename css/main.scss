@@ -104,6 +104,7 @@ firstp {
 .yayin-not { font-size: 14px; color: #666; }
 .gorsel-kaynak { font-size: 12px; color: #888; margin-top: -4px; }
 .yayinlar li, .yayin-detay { overflow-wrap: anywhere; }
+iframe { max-width: 100%; }
 .mezunlar li { margin-bottom: 6px; }
 @media (max-width: 767px) { .mezun-bos-baslik { display: none; } }
 
