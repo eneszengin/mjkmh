@@ -2,7 +2,7 @@
 # surname: büyük harfle (Türkçe İ elle yazılır)
 # info: unvan (isteğe bağlı)
 # photo: images/hocalar/ içindeki dosya adı (isteğe bağlı)
-# born / died: doğum / ölüm yılı (died boşsa yalnızca "d. yıl" yazılır)
+# born / died: doğum / ölüm yılı (died boşsa "(1937–)" biçiminde yazılır)
 # bio: biyografi, tek paragraf (isteğe bağlı)
 
 - name: Mahir
@@ -26,7 +26,7 @@
 - name: Kemal
   surname: ERGUVANLI
   born: 1920
-  died:
+  died: 1989
   info: Prof. Dr.
   photo: kemal-erguvanli.png
   bio: |

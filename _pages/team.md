@@ -17,7 +17,7 @@ permalink: /kisiler/
 {% endif %}
 
 <div class="col-sm-6 clearfix team-member">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/kisiler/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
+  {% if member.photo %}<img src="{{ site.url }}{{ site.baseurl }}/images/kisiler/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />{% endif %}
   <h4>{{ member.name }} {{ member.surname }}, {{ member.info }}</h4>
   <ul style="overflow: hidden">
   {% for edu in member.education %}
@@ -38,3 +38,16 @@ permalink: /kisiler/
 {% if even_odd == 1 %}
 </div>
 {% endif %}
+
+## Mezunlar
+
+{% assign gruplar = "doktora:Doktora,yuksek_lisans:Yüksek Lisans,lisans:Lisans" | split: "," %}
+{% for grup in gruplar %}
+{% assign parca = grup | split: ":" %}
+<h3>{{ parca[1] }}</h3>
+<ul class="mezunlar">
+{% for kisi in site.data.mezunlar[parca[0]] %}
+<li>{{ kisi.name }} {{ kisi.surname }}{% if kisi.year %}, {{ kisi.year }}{% endif %}</li>
+{% endfor %}
+</ul>
+{% endfor %}
