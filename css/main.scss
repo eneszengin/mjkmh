@@ -1,6 +1,9 @@
 ---
 ---
     
+// Menü 992px altında ☰ düğmesine katlanır (8 bağlantı daha dar ekranlara sığmıyor)
+$grid-float-breakpoint: 992px;
+
 @import "bootstrap";
 
 img { margin-bottom: 24px; 
@@ -22,6 +25,9 @@ figcaption {
 
 
 /* Top navigation bar */
+@media (min-width: 992px) {
+  .navbar-nav > li > a { padding-left: 10px; padding-right: 10px; font-size: 15px; }
+}
 
 
 p.byline {
