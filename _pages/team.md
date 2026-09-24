@@ -17,7 +17,7 @@ permalink: /kisiler/
 {% endif %}
 
 <div class="col-sm-6 clearfix team-member">
-  {% if member.photo %}<img src="{{ site.url }}{{ site.baseurl }}/images/kisiler/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />{% endif %}
+  <img src="{{ site.url }}{{ site.baseurl }}/images/kisiler/{{ member.photo | default: 'fotograf-yok.png' }}" class="img-responsive" width="25%" style="float: left" />
   <h4>{{ member.name }} {{ member.surname }}, {{ member.info }}</h4>
   <ul style="overflow: hidden">
   {% for edu in member.education %}
