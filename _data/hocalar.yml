@@ -7,17 +7,23 @@
 - name: Kemal
   surname: ERGUVANLI
   info:
-  photo:
+  photo: kemal-erguvanli.png
   bio:
 
 - name: Mahir
   surname: VARDAR
   info:
-  photo:
+  photo: mahir-vardar.png
   bio:
 
 - name: Erdoğan
   surname: YÜZER
   info:
-  photo:
+  photo: erdogan-yuzer.png
+  bio:
+
+- name: Malik
+  surname: SAYAR
+  info:
+  photo: malik-sayar.png
   bio:
