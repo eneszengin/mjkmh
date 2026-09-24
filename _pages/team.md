@@ -39,6 +39,8 @@ permalink: /kisiler/
 </div>
 {% endif %}
 
+<hr>
+
 {% assign bolumler = "lisansustu:Doktora ve Yüksek Lisans Öğrencileri,lisans:Lisans Öğrencileri,misafir:Misafir Araştırmacılar" | split: "," %}
 {% for bolum in bolumler %}
 {% assign parca = bolum | split: ":" %}
@@ -48,6 +50,7 @@ permalink: /kisiler/
 <li>{{ kisi.name }} {{ kisi.surname }}{% if kisi.info %}, {{ kisi.info }}{% endif %}</li>
 {% endfor %}
 </ul>
+<hr>
 {% endfor %}
 
 <h2 class="kisi-bolum" id="mezunlar">Mezunlar</h2>
