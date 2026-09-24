@@ -41,7 +41,7 @@ permalink: /kisiler/
 
 <hr>
 
-{% assign bolumler = "lisansustu:Doktora ve Yüksek Lisans Öğrencileri,lisans:Lisans Öğrencileri,misafir:Misafir Araştırmacılar" | split: "," %}
+{% assign bolumler = "misafir:Misafir Araştırmacılar,lisansustu:Doktora ve Yüksek Lisans Öğrencileri,lisans:Lisans Öğrencileri" | split: "," %}
 {% for bolum in bolumler %}
 {% assign parca = bolum | split: ":" %}
 <h2 class="kisi-bolum">{{ parca[1] }}</h2>
@@ -51,6 +51,7 @@ permalink: /kisiler/
 <div class="col-sm-6 clearfix team-member ogrenci">
   <img src="{{ site.url }}{{ site.baseurl }}/images/kisiler/{{ kisi.photo | default: 'fotograf-yok.png' }}" class="img-responsive" width="18%" style="float: left" />
   <h4>{{ kisi.name }} {{ kisi.surname }}{% if kisi.info %}, {{ kisi.info }}{% endif %}</h4>
+  {% if kisi.institution %}<p class="danisman">{{ kisi.institution }}</p>{% endif %}
   {% if kisi.advisor %}<p class="danisman">Danışman: {{ kisi.advisor }}</p>{% endif %}
 </div>
 {% endfor %}

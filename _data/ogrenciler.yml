@@ -1,5 +1,5 @@
 # Kişiler sayfasındaki öğrenci ve misafir bölümleri (ada göre Türk alfabesiyle sıralı)
-# Her kişi için: name, surname (büyük harfle), isteğe bağlı advisor (danışman), photo, info
+# Her kişi için: name, surname (büyük harfle), isteğe bağlı info (adın yanında), institution (kurum, alt satır), advisor (danışman), photo
 
 lisansustu: []
 
@@ -33,4 +33,5 @@ misafir:
   - name: Berna
     surname: BEKDEMİR
     photo: berna-bekdemir.png
-    info: Vrije Universiteit Amsterdam, 2025–2026
+    info: 2025–2026
+    institution: Vrije Universiteit Amsterdam
