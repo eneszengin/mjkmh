@@ -17,6 +17,16 @@ include:
   - .htaccess
   - _pages
 
+# kisiler/: orijinal fotoğraflar (yalnızca yerelde); sitede images/kisiler/ kullanılır
+exclude:
+  - kisiler
+  - Gemfile
+  - Gemfile.lock
+  - docker-compose.yml
+  - LICENSE
+  - README.md
+  - vendor
+
 sass:
   sass_dir: _sass
 
