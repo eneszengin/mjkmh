@@ -2,7 +2,7 @@
 title: "MJKMH - Team"
 layout: gridlay
 sitemap: false
-permalink: /team/
+permalink: /kisiler/
 ---
 
 # Çalışma grubu üyeleri
