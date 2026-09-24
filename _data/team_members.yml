@@ -1,6 +1,6 @@
 # Çalışma grubu üyeleri (sayfadaki sıra bu dosyadaki sıradır)
 # surname: büyük harfle (Türkçe İ elle yazılır); photo: images/kisiler/ içindeki dosya adı
-# education: yukarıdan aşağı Post Doktora → Lisans; yalnızca yapılan aşamalar
+# education: yukarıdan aşağı Post Doktora, Doktora, Doktora Sırası, Yüksek Lisans, Lisans; yalnızca yapılan aşamalar
 #   level, university zorunlu; department ve years isteğe bağlı
 #   (department ve years şu an sayfada gösterilmiyor: _config.yml team_show_department, team_show_years)
 
@@ -66,14 +66,14 @@
       university: "The University of British Columbia"
       department: "Earth, Ocean and Atmospheric Sciences"
       years: "2021–2022"
-    - level: Doktora Sırası
-      university: "University of Aberdeen"
-      department: "Geology and Geophysics"
-      years: "2017–2018"
     - level: Doktora
       university: "Kütahya Dumlupınar Üniversitesi"
       department: "Jeoloji Mühendisliği"
       years: "2013–2019"
+    - level: Doktora Sırası
+      university: "University of Aberdeen"
+      department: "Geology and Geophysics"
+      years: "2017–2018"
     - level: Yüksek Lisans
       university: "Kütahya Dumlupınar Üniversitesi"
       department: "Jeoloji Mühendisliği"
@@ -88,6 +88,9 @@
   photo: ozge-dinc-gogus.png
   info: Doç. Dr.
   education:
+    - level: Post Doktora
+      university: "Université de Lorraine"
+      department: "GeoRessources"
     - level: Doktora
       university: "Çanakkale Onsekiz Mart Üniversitesi"
       department: "Jeoloji Mühendisliği"
