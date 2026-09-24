@@ -7,6 +7,9 @@ permalink: /haberler/
 
 # Haberler
 
+<div markdown="0">
 {% for article in site.data.news %}
-<p>{% if article.date %}{{ article.date }}<br>{% endif %}{{ article.headline | markdownify}}</p>
+{% if article.date %}<p class="news-date">{{ article.date }}</p>{% endif %}
+{{ article.headline | markdownify }}
 {% endfor %}
+</div>
