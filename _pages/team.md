@@ -39,6 +39,17 @@ permalink: /kisiler/
 </div>
 {% endif %}
 
+{% assign bolumler = "lisansustu:Doktora ve Yüksek Lisans Öğrencileri,lisans:Lisans Öğrencileri,misafir:Misafir Araştırmacılar" | split: "," %}
+{% for bolum in bolumler %}
+{% assign parca = bolum | split: ":" %}
+<h2>{{ parca[1] }}</h2>
+<ul class="ogrenciler">
+{% for kisi in site.data.ogrenciler[parca[0]] %}
+<li>{{ kisi.name }} {{ kisi.surname }}{% if kisi.info %}, {{ kisi.info }}{% endif %}</li>
+{% endfor %}
+</ul>
+{% endfor %}
+
 ## Mezunlar
 
 {% assign gruplar = "doktora:Doktora,yuksek_lisans:Yüksek Lisans,lisans:Lisans" | split: "," %}

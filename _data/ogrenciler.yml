@@ -1,0 +1,12 @@
+# Kişiler sayfasındaki öğrenci ve misafir bölümleri
+# Her kişi için: name, surname (büyük harfle), isteğe bağlı info (ör. "Doktora", "Yüksek Lisans", kurum)
+# Örnek:
+#   - name: Ad
+#     surname: SOYAD
+#     info: Doktora
+
+lisansustu: []
+
+lisans: []
+
+misafir: []
